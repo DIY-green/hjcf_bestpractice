@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/divider_grey"
+    android:showDividers="middle"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_all"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="#8E8E8E"
+        android:textSize="20sp"
+        android:text="全部"/>
+
+    <TextView
+        android:id="@+id/tv_unaccept"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="#8E8E8E"
+        android:textSize="20sp"
+        android:text="待接单" />
+
+    <TextView
+        android:id="@+id/tv_unfinished"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="#8E8E8E"
+        android:textSize="20sp"
+        android:text="待做好" />
+
+    <TextView
+        android:id="@+id/tv_undiviliery"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="#8E8E8E"
+        android:textSize="20sp"
+        android:text="待发配送" />
+
+    <TextView
+        android:id="@+id/tv_diviliery_unaccept"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="#8E8E8E"
+        android:textSize="20sp"
+        android:text="待配送接单" />
+
+    <TextView
+        android:id="@+id/tv_confirm_refund"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="#8E8E8E"
+        android:textSize="20sp"
+        android:text="待确认退款" />
+</LinearLayout>
